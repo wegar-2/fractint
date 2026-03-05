@@ -11,4 +11,4 @@ dependencies = [
 ]
 
 [tool.setuptools.package-data]
-my_package = ["data/*"]
+fractint = ["data/*"]
