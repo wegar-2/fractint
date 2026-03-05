@@ -1,7 +1,7 @@
 [project]
 name = "fractint"
 version = "0.1.0"
-description = "Add your description here"
+description = "Fractional integration and cointegration toolbox"
 requires-python = ">=3.14"
 dependencies = [
     "arch>=8.0.0",
@@ -9,3 +9,6 @@ dependencies = [
     "scikit-learn>=1.8.0",
     "statsmodels>=0.14.6",
 ]
+
+[tool.setuptools.package-data]
+my_package = ["data/*"]
